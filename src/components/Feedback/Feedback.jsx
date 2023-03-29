@@ -17,7 +17,7 @@ export class Feedback extends Component {
               type="button"
               onClick={this.props.onLeaveFeedback}
             >
-              {el}
+              {el[0].toUpperCase() + el.slice(1)}
             </Button>
           ))}
         </BtnWrapper>
